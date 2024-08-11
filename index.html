@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e9cf857bd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/img/logo.jpg" class="logo" width="300px" height=" 150px " alt="logo ">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    WEB DEVELOPER
+                </p>
+                <h1>
+                    Hi, I'm
+                    <span>Prajwal </span>Tripathi <br>from Gorakhpur
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="img/Screenshot 2024-08-07 165651.png" alt="pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">
+                        About Me
+                    </h1>
+                    <p>
+                        Hold a degree in Computer Science and Engineering with<br> a strong foundation in Web Development.Innovative and<br> detail-oriented Fresher Developer with a passion for<br> creating responsive and user-friendly websites.<br> Skilled
+                        in collaborating with senior developers,<br> utilizing version control systems, <br>and staying up-to-date on emerging technologies.<br> Proven track record in improving website traffic,<br> performance, and functionality through
+                        the implementation <br> of front-end coding standards and troubleshooting.
+                    </p>
+                    <div class="tab-title">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links " onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links " onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li>
+                                <span>Web</span><br>Development
+                            </li>
+                            <li>
+                                <span>Programming Language</span><br>C++
+                            </li>
+                            <li>
+                                <span>Extra Skills</span><br>Communication skills,editing,Creative writing
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li>
+                                <span>2022(2 months)</span><br>UDEMY course of Full stack
+                            </li>
+                            <li>
+                                <span>2023(1 month)</span><br>INTERN in Bharat intern.
+                            </li>
+                            <li>
+                                <span>2024(1months)</span><br>Data Fundamentals certificate at IBM SkillBuild
+                            </li>
+                            <li>
+                                <span>2024(2months)</span><br>Fullstack intern at SlashMark
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul type="1">
+                            <li>
+                                <span>2017</span><br>High School(9.6 CGPA) from RAMPUS GORAKHPUR
+                            </li>
+                            <li>
+                                <span>2019</span><br>Intermediate PCM(75%) from RAMPUS GORAKHPUR
+                            </li>
+                            <li>
+                                <span>2019-2022</span><br>DIPLOMA in Civil Engineering(75%) from MP POLYTECHNIC
+                                <BR> GORAKHPUR
+                            </li>
+                            <li>
+                                <span>2022-25</span><br>B.TECH. in C.S.E. from AKGEC GHAZIABAD
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>
+                        Udemy
+                    </h2>
+                    <p>
+                        In 2023 from October 2023 to November 2023.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1CEDvZwdKGScigQU1KuM5hFn79Dwx53VF/view?usp=drivesdk">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>
+                        YBI FOUNDATION
+                    </h2>
+                    <p>
+                        One month live AI/ML Certificate cum internship program
+                    </p>
+                    <a href="https://drive.google.com/file/d/1OPdDpny0k6i8KsIUBoCjBpg8jSEoDcIV/view?usp=drivesdk">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>
+                        Infosys
+                    </h2>
+                    <p>
+                        Python for data science certificate
+                    </p>
+                    <a href="https://drive.google.com/file/d/167GPkm55Uq7GcpClwgAWvEQlWIMG5cVV/view?usp=drivesdk">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>
+                        CCC CERTIFICATE
+                    </h2>
+                    <p>
+                        2021 CCC Completion certificate from gorakhpur.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1UFPKlui0qEj8BcHt9YJwQac1kpPnT7dL/view?usp=drivesdk">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>
+                        Internship studio Participation CERTIFICATE
+                    </h2>
+                    <p>
+                        Participating into Common Internship test on 17April 2024.
+                    </p>
+                    <a href="https://drive.google.com/file/d/13ZhLuCOIrqNmAbI8npkoMl6WJ09A5W1z/view?usp=drivesdk">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>
+                        All India NCAT BY Naukri campus
+                    </h2>
+                    <p>
+                        Participating into All India NCAT BY Naukri campus on 12 April 2024.
+                    </p>
+                    <a href="https://drive.google.com/file/d/13ZhLuCOIrqNmAbI8npkoMl6WJ09A5W1z/view?usp=drivesdk">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id=" portfolio ">
+            <div class="container ">
+                <h1 class="sub-title ">My Work</h1>
+                <div class="work-list ">
+                    <div class="work ">
+                        <img src="img/download.jpeg" width="100px " height="300px ">
+                        <div class="layer ">
+                            <h3>Amazone clone</h3>
+                            <p>
+                                Try to make a beautiful Amazone clone(only frontend) in which I use HTML CSSand javascript with responsiveness into the page.
+                            </p>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square "></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/web3images.jpeg " width="100px " height="300px ">
+                        <div class="layer ">
+                            <h3>Railways Registration Form</h3>
+                            <p>
+                                In this Project,only the HTMLand CSSwas use by which i enhanecing it with beautiful styling and cretivity.
+                            </p>
+                            <a href="# ">
+                                <i class="fa-solid fa-arrow-up-right-from-square "></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/webimages.jpeg" width="100px " height="300px ">
+                        <div class="layer ">
+                            <h3>Product Landing Page</h3>
+                            <p>
+                                Into my internship, This project can be Given and I use to make a beautiful Shoe Landing page.
+                            </p>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square "></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+
+
+            <div id="contact ">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i> contact@example.com
+                            </p>
+                            <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                            <div class="social-icons ">
+                                <a href="https://facebook.com/"><i class="fa-brands fa-facebook "></i></a>
+                                <a href="https://instagram.com"><i class="fa-brands fa-instagram "></i></a>
+                                <a href="https://linkdin.com"><i class="fa-brands fa-linkedin "></i></a>
+                                <a href="https://twitter.com"><i class="fa-brands fa-twitter "></i></a>
+                            </div>
+                            <a href="img/praj resume.pdf" class="btn btn2 ">Download CV</a>
+                        </div>
+                        <div class="contact-right ">
+                            <form name="submit-to-google-sheet ">
+                                <input type="text" name="Name" placeholder="Your name" required>
+                                <input type="email" email="email" placeholder="Your email" required>
+                                <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>
+                        Copyright <i class="fa-regular fa-copyright "></i> Prajwal. Made with <i class="fa-solid fa-heart "> </i> by Prajwal Tripathi
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+
+                function openmenu() {
+                    sidemenu.style.right = "0 ";
+                }
+
+                function closemenu() {
+                    sidemenu.style.right = "-200px ";
+                }
+            </script>
+
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbxXcrsaNI9mCQLeducjowdW-jxcydlVygvRS_I4tcLH4m6ACTjuLyNh9x61YhUx8A6FWA/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg ")
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, {
+                            method: 'POST',
+                            body: new FormData(form)
+                        })
+                        .then(response => {
+                            msg.innnerHTML = 'Message sent successfully'
+                            setTimeout(function() {
+                                msg.innnerHTML = " "
+                            }, 5000)
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                })
+            </script>
+</body>
+
+</html>
